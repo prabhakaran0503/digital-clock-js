@@ -1,0 +1,168 @@
+@font-face {
+    font-family: digital-7 ;
+    src: url("css/digital-7.ttf");
+}
+@font-face {
+    font-family:digital-7 ;
+    src: url(digital-7.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.row{
+    background-color: rgb(49,28,31);
+    height: 100vh;
+    border: 10px solid rgb(183,145,149);
+}
+.one-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#oneyear p {
+    font-size: 50px;
+    padding: 30px 25px 0px 10px;
+    color: rgb(183,145,149);
+
+    
+}
+#oneyear span{
+    
+    font-family: digital-7 ;
+    font-size: 80px;
+    padding: 0px 25px 0px 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(134,48,53);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+    
+    
+}
+                       /*onetime*/
+.onetime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onetime p{
+    font-size: 50px;
+    padding-right: 30px;
+    color: rgb(183,145,149);  
+}
+.onetime h1{
+    font-family: digital-7;
+    padding: 10px 10px;
+    font-size: 10em;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(134,48,53);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+.onetime :nth-child(3){
+    background-color:rgb(49,28,31) ;
+    border-radius: 1px;
+}
+.onetime :nth-child(5){
+    background-color:rgb(49,28,31) ;
+    border-radius: 1px;
+}
+#oneam{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#onepm{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+.oneday h1{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+
+#sunday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#monday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#tueday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#sweday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#thuday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#friday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#satday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+.onetime .ampm h1{
+    font-size: 50px;
+}
+.ampm h1{
+    background-color:rgb(49,28,31) ;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px  rgb(134,48,53);
+}
+
+
+
+                             /*oneday*/
+.oneday{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .oneday span{
+    font-size:8em;
+    background-color: antiquewhite;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+} */
+.oneday h1{
+    
+    font-size: 50px;
+    padding-right: 20px;
+    margin-bottom: 80px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px  rgb(134,48,53);
+    
+    /* display: flex;   
+    text-align: center;
+    justify-content: center; */
+}
+/* #oneam{
+    color: blue;
+}
+#onepm{
+    color: aqua;
+} */
+/* #oneam{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+
+}
+#onepm{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+} */
