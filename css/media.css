@@ -1,6 +1,10 @@
 @media(max-width:630px){
     .container{
         width: 100%;
+        height: 100vh;
+    }
+    .one-date{
+        margin-top: 4rem;
     }
     #oneyear p {
         font-size: 20px;
@@ -9,6 +13,9 @@
         margin-left: 10px;
         font-family: digital-7 ;
         font-size: 50px;
+    }
+    .onetime{
+        margin-top: 2rem;
     }
     .onetime p{
         font-size: 20px;
@@ -24,6 +31,9 @@
     }
     .onetime .ampm h1{
         font-size: 20px;
+    }
+    .oneday{
+        margin-top: 2rem;
     }
     .oneday h1{
     

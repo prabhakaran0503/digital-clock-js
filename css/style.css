@@ -31,7 +31,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 #oneyear p {
     font-size: 50px;
@@ -83,37 +82,8 @@ section{
     background-color:rgb(49,28,31) ;
     border-radius: 1px;
 }
-#oneam{
-    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-}
-#onepm{
-    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-}
-.oneday h1{
-    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-}
 
-#sunday{
-    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-}
-#monday{
-    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-}
-#tueday{
-    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-}
-#sweday{
-    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-}
-#thuday{
-    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-}
-#friday{
-    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-}
-#satday{
-    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-}
+
 .onetime .ampm h1{
     font-size: 50px;
 }
@@ -151,18 +121,34 @@ section{
     text-align: center;
     justify-content: center; */
 }
-/* #oneam{
-    color: blue;
+#oneam{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
 }
 #onepm{
-    color: aqua;
-} */
-/* #oneam{
-    color: rgb(255, 255, 255);
     text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+.oneday h1{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
 
-}
-#onepm{
-    color: rgb(255, 255, 255);
+#sunday{
     text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
-} */
+}
+#monday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#tueday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#sweday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#thuday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#friday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
+#satday{
+    text-shadow: 0px 0px 5px rgb(255, 6, 6),0px 0px 25px rgb(255, 2, 2),0px 0px 55px rgb(255, 2, 2);
+}
